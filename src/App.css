@@ -1,38 +1,84 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.phy-head{
+  color:#fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.6rem;
+  letter-spacing: 2px;
+  font-weight: 900;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  color:#000;
+  letter-spacing: 2px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  font-size: 3.4rem;
+  margin-top: -2.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+span{
+  color:#FF0000;
+  margin-right:6px;
+  font-size:2rem;
+  font-weight: 100;
 }
-
-.App-link {
-  color: #61dafb;
+.label{
+  font-size:1.4rem;
+  display:flex;
+  margin-left:38%;
+  color:#36454f;
+  margin-top: 1.2rem;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  margin-top: 1.2rem;
+  border-radius: 2px;
+  border: none;
+  padding:1.4rem 2.2rem;
+  font-size: 1.4rem;
+  background-color: #f2f8fb;
+}
+.input:focus{
+outline: none;
+}
+.btn{
+  background-color: #fff;
+  border:none;
+  margin-left: 1px;
+}
+.password-filled{
+  border: none;
+  padding:0.9rem 1.5rem;
+  font-size: 1rem;
+  background-color: #f2f8fb;
+}
+.password-filled:focus{
+  outline:none;
+}
+.password-control{
+  margin-top: 1.2rem;
+  border-radius: 2px;
+  border: none;
+  padding:0.8rem 2rem;
+  margin-left: 39%;
+  margin-right: 39%;
+  background-color: #fff;
+}
+h3{
+  color:#36454f;
+  letter-spacing: 2px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.log-btn{
+  color:#36454f;
+  padding:1.2rem 3.6rem;
+  border-radius: 2px;
+  border:none;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
 }
