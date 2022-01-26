@@ -7,8 +7,6 @@ function App() {
   const styleIcon = { color: "#36454f", fontSize: "1.1rem" };
   const [query, setQuery] = useState("");
   const [password, setPassword] = useState("");
-  const [login, setLogin] = useState(false);
-  const [token, setToken] = useState(null);
   const [passwordShown, setPasswordShown] = useState(false);
   const togglePassword = () => {
     setPasswordShown(prevState => !prevState);
@@ -21,10 +19,8 @@ function App() {
       res.json().then((result) => {
         console.log(result);
         localStorage.setItem('login', JSON.stringify({
-          login: true,
           token: result.token
         }))
-        setLogin(true)
       })
     })
   }
@@ -63,3 +59,4 @@ function App() {
 }
 
 export default App;
+
